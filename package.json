@@ -1,0 +1,28 @@
+{
+  "name": "frontend-generators",
+  "version": "1.0.0",
+  "description": "Generates various things for the frontend",
+  "bin": {
+    "frontend-gen": "bin/commandHandler.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henrieri/frontend-generators.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrieri/frontend-generators/issues"
+  },
+  "homepage": "https://github.com/henrieri/frontend-generators#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-color": "^1.2.0",
+    "fs-extra": "^5.0.0",
+    "string": "^3.3.3"
+  }
+}
