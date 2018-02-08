@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generates various things for the frontend",
   "bin": {
-    "frontend-gen": "bin/commandHandler.js"
+    "frontend-generators": "bin/commandHandler.js"
   },
   "main": "./lib/index.js",
   "scripts": {
