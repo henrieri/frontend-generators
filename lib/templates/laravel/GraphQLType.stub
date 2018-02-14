@@ -1,0 +1,13 @@
+$schema = GraphQL::schema([
+
+    'types' => [
+        // 'User' => 'App\GraphQL\Type\UserType'
+    ],
+
+    'query' => [
+        //'users' => 'App\GraphQL\Query\UsersQuery'
+    ],
+    'mutation' => [
+        //'updateUserEmail' => 'App\GraphQL\Query\UpdateUserEmailMutation'
+    ]
+]);
